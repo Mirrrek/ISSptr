@@ -15,6 +15,8 @@
 
 static const char* TAG = "compass";
 
+bool Compass::_initialized = false;
+
 Compass::Compass(gpio_num_t sda, gpio_num_t scl) {
     _sda = sda;
     _scl = scl;
@@ -32,7 +34,10 @@ Compass::Compass(gpio_num_t sda, gpio_num_t scl) {
         .scl_io_num = scl,
         .sda_pullup_en = GPIO_PULLUP_ENABLE,
         .scl_pullup_en = GPIO_PULLUP_ENABLE,
-        .master.clk_speed = 100000
+        .master = {
+            .clk_speed = 100000
+        },
+        .clk_flags = 0
     };
 
     i2c_param_config(I2C_NUM_0, &config);

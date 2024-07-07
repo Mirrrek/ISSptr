@@ -3,4 +3,5 @@ idf_component_register(SRCS
     "vector.cpp"
     "servo.cpp"
     "stepper.cpp"
+    "compass.cpp"
     INCLUDE_DIRS ".")
