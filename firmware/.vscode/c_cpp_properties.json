@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Espressif",
+            "includePath": [
+                "${workspaceFolder}\\main\\**",
+                "${workspaceFolder}\\build\\config",
+                "C:\\Espressif\\frameworks\\esp-idf-v5.2.1\\components\\**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:\\Espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}\\build\\compile_commands.json"
+        }
+    ],
+    "version": 4
+}
