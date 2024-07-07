@@ -1,5 +1,105 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c978750c-b285-44b2-8d41-37a456977bcd)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "ISSptr")
+    (date "July 2024")
+    (rev "v1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 203.2 63.5) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2ca1998a-5442-4c98-881c-f4e393a0109c)
+    (property "Sheetname" "Compass" (at 203.2 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Compass.kicad_sch" (at 203.2 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "ISSptr"
+        (path "/c978750c-b285-44b2-8d41-37a456977bcd" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 139.7 63.5) (size 50.8 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4bb04888-d5d1-4b7b-98aa-f56c964ca5d9)
+    (property "Sheetname" "ESP32" (at 139.7 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ESP32.kicad_sch" (at 139.7 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "ISSptr"
+        (path "/c978750c-b285-44b2-8d41-37a456977bcd" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 139.7 114.3) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6312e27f-09b4-4a8c-98e1-124dfb1b8b7c)
+    (property "Sheetname" "Servo" (at 139.7 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Servo.kicad_sch" (at 139.7 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "ISSptr"
+        (path "/c978750c-b285-44b2-8d41-37a456977bcd" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 63.5) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dcaee2ef-54e3-49e6-b4b9-4c41b518fa80)
+    (property "Sheetname" "Power Supply" (at 76.2 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerSupply.kicad_sch" (at 76.2 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "ISSptr"
+        (path "/c978750c-b285-44b2-8d41-37a456977bcd" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 139.7 88.9) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f4a1c357-f969-4a11-a296-8eff26bf6bb6)
+    (property "Sheetname" "Stepper" (at 139.7 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Stepper.kicad_sch" (at 139.7 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "ISSptr"
+        (path "/c978750c-b285-44b2-8d41-37a456977bcd" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

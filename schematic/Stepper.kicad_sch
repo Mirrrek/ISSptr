@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 74cb1dc6-29c1-48ac-86ac-6184a90c3025)
+
+  (paper "A4")
+
+  (title_block
+    (title "ISSptr")
+    (date "July 2024")
+    (rev "v1")
+  )
+
+  (lib_symbols
+  )
+
+)
