@@ -14,6 +14,10 @@
   )
 
 
+  (wire (pts (xy 203.2 96.52) (xy 215.9 96.52))
+    (stroke (width 0) (type default))
+    (uuid 11a14ba8-dca0-498e-b276-88a1b9513bb6)
+  )
   (wire (pts (xy 203.2 68.58) (xy 215.9 68.58))
     (stroke (width 0) (type default))
     (uuid 34379c01-0c84-4d3b-9249-4fc253bc5e2f)
@@ -115,6 +119,10 @@
     (property "Sheetfile" "Servo.kicad_sch" (at 215.9 102.1846 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
+    (pin "SERVO" input (at 215.9 96.52 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6a0abc49-d717-4cbf-8f4d-3d8abca4f788)
+    )
     (instances
       (project "ISSptr"
         (path "/c978750c-b285-44b2-8d41-37a456977bcd" (page "6"))
@@ -182,7 +190,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f0b135c0-9bf3-42ba-b6a5-10572e149e97)
     )
-    (pin "B_SERVO" output (at 203.2 93.98 0)
+    (pin "B_SERVO" output (at 203.2 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2dbd9e4b-f66d-488e-9de5-7030e01e024c)
     )
