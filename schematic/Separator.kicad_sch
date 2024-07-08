@@ -420,7 +420,7 @@
   (symbol (lib_id "Custom:SolderPad-6pin") (at 152.4 95.25 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 79e23eed-cd2a-48b9-934a-df1cb493d6a7)
-    (property "Reference" "J4" (at 147.32 95.25 0)
+    (property "Reference" "J6" (at 147.32 95.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "~" (at 152.4 88.9 0)
@@ -441,7 +441,7 @@
     (instances
       (project "ISSptr"
         (path "/c978750c-b285-44b2-8d41-37a456977bcd/fc6af4d0-251f-4908-9d3e-0df25c48aee5"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -450,7 +450,7 @@
   (symbol (lib_id "Custom:SolderPad-6pin") (at 127 95.25 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 7ad2cc63-f8ef-4043-9cc1-17790db51644)
-    (property "Reference" "J3" (at 133.35 95.25 0)
+    (property "Reference" "J5" (at 133.35 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 127 88.9 0)
@@ -471,7 +471,7 @@
     (instances
       (project "ISSptr"
         (path "/c978750c-b285-44b2-8d41-37a456977bcd/fc6af4d0-251f-4908-9d3e-0df25c48aee5"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
